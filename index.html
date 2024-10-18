@@ -1,0 +1,37 @@
+<!DOCTYPE html5>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <link rel="stylesheet" href="codi.css" media="screen">
+    <script src="ext/gl-matrix.js"></script>
+    <script src="CONST.js"></script>
+    <script src="Shader.js"></script>
+    <script src="Util.js"></script>
+    <script src="CA.js"></script>
+    <script src="Sig.js"></script>
+    <script src="GA.js"></script>
+    <script src="NN.js"></script>
+    <script src="Stats.js"></script>
+    <script src="UI.js"></script>
+    <script src="GUI.js"></script>
+    <script src="Display.js"></script>
+    <script src="Geo.js"></script>
+    <script src="Vis.js"></script>
+    <script src="App.js"></script>
+</head>
+<body onload="App.start()">
+<div id="pageContainer">
+    <div id="canvasDiv">
+        <canvas id="canvas" width="900" height="900"></canvas>
+    </div>
+    <div id="statsContainerDiv">
+        <!--<div id="growStatsDiv"><span id="growStats"></span></div>-->
+        <!--<div id="geometryStatsDiv"><span id="geometryStats">xxx</span></div>-->
+        <aside id="growStatsDiv"><span id="growStats"></span></aside>
+        <section/>
+        <aside id="growStatsCtDiv"><span id="growStatsCt"></span></aside>
+        <section/>
+        <aside id="geometryStatsDiv"><span id="geometryStats"></span></aside>
+    </div>
+</div>
+</body>
+</html>

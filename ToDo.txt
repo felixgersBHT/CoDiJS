@@ -1,0 +1,44 @@
+
+CURRENT
+
+- Siganl-growth Cone
+- T_branch - Bifurcation
+- NEURON_BODY_SEED (Tropfenform)
+- fooldfill around dendrites or Pointsize *3
+
+GROWTH
+
+- oder of growth: axon an apical first than basal
+
+- T-Branch only two / more than one branch at one branchpoint/cell?
+
+- use z for color fading (fog)
+
+- pos neurons to vec3
+
+- forward as float vector
+
+- add neuron type to create gene.
+
+- after growth propagate signals back and kill dead branch
+
+- maybe : add neuron body gene and growth.
+
+- new glMatrix with require
+
+VISUALISATION
+
+- neuron bodies become bigger with MP, cell in general become bigger with
+- Signal are larger than normal cells.
+- path length histogram
+- signals graph
+
+
+DONE
+
+- cell type names in CONST used in Stats
+- transformation of celltype
+- max signals
+- hold counter in signal
+- Shader Code in separate file
+- branches: fork, t-branch-3, t-branch-2, parent angle change
